@@ -1,0 +1,71 @@
+/* Write your CSS here */
+.team-matches-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.responsive-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.team-banner-img {
+  width: 95%;
+  height: 150px;
+}
+@media (min-width: 768px) {
+  .team-banner-img {
+    height: 250px;
+  }
+  .latest-match-heading {
+    font-size: 30px;
+  }
+}
+.latest-match-heading {
+  font-family: 'Bree serif';
+  font-size: 16px;
+  color: #ffffff;
+  font-weight: 400;
+  width: 95%;
+}
+.recent-matches-list {
+  list-style: none;
+  padding-left: 0px;
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.KXP {
+  background-image: linear-gradient(to bottom, #d91c1f, #a4261d, #1e293b);
+}
+.KKR {
+  background-image: linear-gradient(to bottom, #4f5db0, #5755a7, #0f172a);
+}
+.RCB {
+  background-image: linear-gradient(to bottom, #d91c1f, #da237b, #1e293b);
+}
+.CSK {
+  background-image: linear-gradient(to bottom, #f7db00, #ffffff33, #1e293b);
+}
+.MI {
+  background-image: linear-gradient(to bottom, #13418b, #f26d22, #1e293b);
+}
+.RR {
+  background-image: linear-gradient(to bottom, #da237b, #13418b, #1e293b);
+}
+.SH {
+  background-image: linear-gradient(to bottom, #f26d22, #f7db00, #1e293b);
+}
+.DC {
+  background-image: linear-gradient(to bottom, #13418b, #4f5db0, #1e293b);
+}

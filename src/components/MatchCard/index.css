@@ -1,0 +1,68 @@
+/* Write your CSS here */
+.match-card-details {
+  background-color: #0f172a;
+  border: none;
+  border-radius: 10px;
+  color: #ffffff;
+  width: 280px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+.match-card-logo {
+  height: 80px;
+  width: 80px;
+}
+.match-card-name {
+  font-family: 'Bree serif';
+  font-size: 30px;
+  color: #ffffff;
+  text-align: center;
+}
+.match-card-result {
+  font-family: 'Bree serif';
+  font-size: 14px;
+  color: #ffffff;
+  width: 70%;
+  text-align: center;
+}
+.lost {
+  font-family: 'Bree serif';
+  font-size: 20px;
+  color: #e31a1a;
+  font-weight: 300;
+}
+.won {
+  font-family: 'Bree serif';
+  font-size: 20px;
+  color: #18ed66;
+  font-weight: 300;
+}
+
+@media (min-width: 768px) {
+  .match-card-details {
+    width: 300px;
+    height: 600px;
+  }
+  .match-card-logo {
+    height: 200px;
+    width: 200px;
+  }
+  .match-card-name {
+    width: 80%;
+    font-size: 30px;
+  }
+  .match-card-result {
+    font-size: 16px;
+  }
+  .lost {
+    font-size: 25px;
+  }
+  .wont {
+    font-size: 25px;
+  }
+}
